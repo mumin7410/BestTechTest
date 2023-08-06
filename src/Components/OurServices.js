@@ -6,7 +6,7 @@ const OurServices = () => {
     return(
         <>
             {/* Body */}
-            <div className="min-h-[100vh] flex font-custom overflow-hidden relative">
+            <div className="min-h-[100vh] flex font-custom overflow-hidden relative mt-[35px]">
                 {/* Left */}
                 <div className="flex flex-col w-1/2 pl-[120px]">
                     {/* 1 */}
