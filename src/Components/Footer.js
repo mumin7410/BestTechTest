@@ -4,7 +4,7 @@ import { GoDotFill } from 'react-icons/go'
 const Footer = () => {
     return(
         <>
-            <div className="h-[35vh] flex">
+            <div className="min-h-[35vh] flex">
                 {/* 1 */}
                 <div className="flex flex-col w-1/4  px-[80px] mt-[50px]">
                     <p className="text-[19px] font-semibold mb-[20px]">Oboosho</p>

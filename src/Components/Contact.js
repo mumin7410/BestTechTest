@@ -4,7 +4,7 @@ const Contact = () => {
     return(
         <>
             {/* Body */}
-            <div className="h-[90vh] flex">
+            <div className="min-h-[90vh] flex">
                 {/* left */}
                 <div className="bg-[#4143CC] flex flex-col w-1/2 ">
                     {/* Top */}

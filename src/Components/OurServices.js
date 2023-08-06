@@ -6,7 +6,7 @@ const OurServices = () => {
     return(
         <>
             {/* Body */}
-            <div className="h-[100vh] flex font-custom overflow-hidden relative">
+            <div className="min-h-[100vh] flex font-custom overflow-hidden relative">
                 {/* Left */}
                 <div className="flex flex-col w-1/2 pl-[120px]">
                     {/* 1 */}
@@ -15,9 +15,11 @@ const OurServices = () => {
                     </div>
                     {/* 2 */}
                     <div className="h-1/3 ">
-                        <p className="font-semibold">Are you ready to schedule your first cleaning?</p>
-                        <p className="font-semibold">Or maybe you stll have some questions?</p>
-                        <p className="mt-[50px] text-[14px] opacity-[0.7]">We have all the answers!</p>
+                        <div className="h-1/2">
+                            <p className="font-semibold">Are you ready to schedule your first cleaning?</p>
+                            <p className="font-semibold">Or maybe you stll have some questions?</p>
+                        </div>
+                        <p className=" text-[14px] opacity-[0.7]">We have all the answers!</p>
                     </div>
                     {/* 3 */}
                     <div className="h-1/3  pt-[40px]">
@@ -46,14 +48,14 @@ const OurServices = () => {
                         
                     </div>
                     {/* 2 */}
-                    <div className="h-1/3  justify-end flex flex-col">
-                        {/* <p className="font-semibold">Are you ready to schedule your first cleaning?</p>
-                        <p className="font-semibold">Or maybe you stll have some questions?</p> */}
+                    <div className="h-1/3 flex flex-col ">
+                        <div className="h-1/2">
+                            
+                        </div>
                         <p className="text-[14px] opacity-[0.7]">Our support team is here for you. Give a call or shoot us an email during business</p>
                         <p className="text-[14px] opacity-[0.7]">hours for immediate support. You can also reach out to us after hours and we will get</p>
                         <p className="text-[14px] opacity-[0.7]">back to you as</p>
                         <p className="text-[14px] opacity-[0.7]">quikly as possible</p>
-
                     </div>
                     {/* 3 */}
                     <div className="h-1/3  pt-[40px]">
